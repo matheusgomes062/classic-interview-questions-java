@@ -44,6 +44,7 @@ public class PalindromeTest {
         if(input == null || input.isEmpty()){
             return input;
         }
+        System.out.println(input);
        
         return input.charAt(input.length()- 1) + reverse(input.substring(0, input.length() - 1));
     }
